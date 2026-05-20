@@ -1,6 +1,6 @@
 <div align="center">
 
-# HyPA Llama
+# Hypa Llama
 
 **Hypa Intelligence's open research repository for fine-tuning Llama into a multilingual, tool-aware assistant for low-resource and underrepresented languages.**
 
@@ -15,7 +15,7 @@
 
 ## About
 
-HyPA Llama is the home for **Hypa Intelligence** research on adapting Meta's Llama family into a genuinely useful multilingual assistant for **low-resource and underrepresented languages**—not only one region or language family. The first release in this repository is **Hypa-Llama3.1 8B**, a supervised fine-tune of a prior Hypa Llama checkpoint aimed at **multilingual dictionary lookup, translation, and tool-aware language understanding** across seventeen languages, including twelve languages of Nigeria alongside English, French, and Spanish.
+Hypa Llama is the home for **Hypa Intelligence** research on adapting Meta's Llama family into a genuinely useful multilingual assistant for **low-resource and underrepresented languages**, not only one region or language family. The first release in this repository is **Hypa-Llama3.1 8B**, a supervised fine-tune of a prior Hypa Llama checkpoint aimed at **multilingual dictionary lookup, translation, and tool-aware language understanding** across seventeen languages, including twelve languages of Nigeria alongside English, French, and Spanish.
 
 We believe multilingualism is the most underrated alignment problem in AI. A model that cannot communicate with a Yoruba farmer, a Hausa journalist, an Igbo student, an Annang grandmother, or an Idoma trader is not actually **general-purpose** for **underrepresented languages** more broadly. It is an Anglophone assistant with party tricks. Every time the field pushes the frontier without bringing **low-resource and underrepresented** languages along, we widen that gap. We think that is a problem worth working on directly, in the open.
 
@@ -34,7 +34,7 @@ Hypa-Llama/
 
 ## Hypa-Llama3.1 8B at a glance
 
-A supervised fine-tune of a prior Hypa Llama 3 checkpoint for multilingual translation, dictionary tasks, language detection, and related instruction-following—consistent with the **tool-aware, multilingual** focus described in our public write-up.
+A supervised fine-tune of a prior Hypa Llama 3 checkpoint for multilingual translation, dictionary tasks, language detection, and related instruction-following, consistent with the **tool-aware, multilingual** focus described in our public write-up.
 
 | Item | Value |
 |---|---|
@@ -59,13 +59,13 @@ Several of these languages, including Annang, Ebira, Eggon, Idoma, Igala, Nupe, 
 - 🤗 **Merged model (16-bit)**: [hypaai/Hypa-Llama3.1-8b-SFT](https://huggingface.co/hypaai/Hypa-Llama3.1-8b-SFT)
 - 🤗 **LoRA adapter checkpoints**: [hypaai/Hypa-Llama3.1-8b-SFT-LoRAs](https://huggingface.co/hypaai/Hypa-Llama3.1-8b-SFT-LoRAs)
 - 📊 **TensorBoard metrics**: [TensorBoard on HF](https://huggingface.co/hypaai/Hypa-Llama3.1-8b-SFT-LoRAs/tensorboard)
-- 📦 **Training data (public subset)**: [hypaai/Hypa-Text-10k](https://huggingface.co/datasets/hypaai/Hypa-Text-10k) — see also [all Hypa datasets & models](https://huggingface.co/hypaai)
+- 📦 **Training data (public subset)**: [hypaai/Hypa-Text-10k](https://huggingface.co/datasets/hypaai/Hypa-Text-10k) - see also [all Hypa datasets & models](https://huggingface.co/hypaai)
 
 ## Blog post
 
-The full write-up — model design, training setup, multilingual evaluation, and lessons learned — is published at:
+The full write-up (model design, training setup, multilingual evaluation, and lessons learned) is published at:
 
-- **[Tuning Llama 3.1 for multilingual dictionary, translation, and tool-aware language understanding](https://hypa-intelligence.hashnode.dev/tuning-llama-3-1-for-multilingual-dictionary-translation-and-tool-aware-language-understanding)** — Hashnode (canonical)
+- **[Tuning Llama 3.1 for multilingual dictionary, translation, and tool-aware language understanding](https://hypa-intelligence.hashnode.dev/tuning-llama-3-1-for-multilingual-dictionary-translation-and-tool-aware-language-understanding)** - Hashnode (canonical)
 
 We publish results and lessons openly because that transparency is the price of admission to leading on multilingual AI. Other labs bury this. We do not.
 
